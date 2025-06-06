@@ -52,12 +52,10 @@ public void reverse()
             temp=temp.next;
         }System.out.print("null");
     }
-}
     
     
- public class Main{   
     public static void main(String[] args){
-        SinglyLinkedList sl=new SinglyLinkedList();
+       SinglyLinkedListReverse sl=new SinglyLinkedListReverse();
        sl.insertAtBeg(5); //1000
        sl.insertAtBeg(6); //2000
        sl.insertAtBeg(7); //3000
